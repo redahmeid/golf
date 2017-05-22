@@ -29,5 +29,5 @@ exports.handler = (event, context, callback) => {
     });
 
     dynamo.scan({"TableName":"Golf"}, done);
-    }
+    
 };
